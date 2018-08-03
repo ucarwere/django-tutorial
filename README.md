@@ -16,12 +16,12 @@ python manage.py runserver 8080
 
 ### directory structure
 
-app # root directory name
-├ db.splite3
-├ manage.py # command line utility for django [ref](https://docs.djangoproject.com/ja/2.0/ref/django-admin/)
-└ app # package directory
-  ├ __init__.py // [ref](https://docs.python.org/3/tutorial/modules.html#tut-packages)
-  ├ settings.py // setting for application [ref](https://docs.djangoproject.com/ja/2.0/topics/settings/)
-  ├ urls.py // routing [ref](https://docs.djangoproject.com/ja/2.0/topics/settings/)
-  ├ wsgi.py // entry point for web server [ref](https://docs.djangoproject.com/ja/2.0/howto/deployment/wsgi/)
-  └ __pycache__
+app // root directory name<br>
+┣ db.splite3<br>
+┣ manage.py // command line utility for django [ref](https://docs.djangoproject.com/ja/2.0/ref/django-admin/)<br>
+┗ app # package directory<br>
+&nbsp;&nbsp;&nbsp;&nbsp;┣ __init__.py // [ref](https://docs.python.org/3/tutorial/modules.html#tut-packages)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;┣ settings.py // setting for application [ref](https://docs.djangoproject.com/ja/2.0/topics/settings/)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;┣ urls.py // routing [ref](https://docs.djangoproject.com/ja/2.0/topics/settings/)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;┣ wsgi.py // entry point for web server [ref](https://docs.djangoproject.com/ja/2.0/howto/deployment/wsgi/)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;┗ __pycache__<br>
