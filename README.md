@@ -25,3 +25,12 @@ app // root directory name<br>
 &nbsp;&nbsp;&nbsp;&nbsp;┣ urls.py // routing [ref](https://docs.djangoproject.com/ja/2.0/topics/settings/)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;┣ wsgi.py // entry point for web server [ref](https://docs.djangoproject.com/ja/2.0/howto/deployment/wsgi/)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;┗ __pycache__<br>
+
+### make polls application
+
+exec command
+```
+# move directory which locate manage.py
+cd app
+python manage.py startapp polls
+```
